@@ -56,9 +56,9 @@ const defaultMenu = {
 ┃
 ┗⬣
 ╭─❑ 「 INFORMASI 」 ❑──
-┃⬡ Bot ini masih beta multi device
-┃⬡ jika ada bug/delay/eror 
-┃⬡ lapor ke owner segera
+┃⬡ github : github.com/luigmntng
+┃⬡ instagram : instagram.com/ahmdlui
+┃⬡ jika ada fitur yg eror mohon di maklumi
 ┗⬣
 
 %readmore`.trimStart(),
