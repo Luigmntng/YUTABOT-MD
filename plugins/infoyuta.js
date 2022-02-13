@@ -3,20 +3,20 @@ let fs = require('fs')
 let handler  = async (m, { conn, usedPrefix }) => { 
 let str = `
 ╭─˗ˏˋ *Informasi Owner* ´ˎ˗
-│ (Sekali Kali Face :v)
-│ ✎ Nama : Yuta (cowok)
+│ (Follow ig saya dong)
+│ ✎ Nama : Lui (cowok)
 │    Kelas : 9 SMP
 │    Umur : 15
-│    Asal : Riau
-│    Kabupaten: Indragiri Hulu
+│    Asal : jawa
+│    Kabupaten: ponorogo
 │    Status : Privasi
-│    Suka : Jepang,Coding/Recode,B.Inggris
+│    Suka : recode sc orang :v
 │ ✎ _Official Grup_ :
-│    bit.ly/OfficalGroupYuta
+│    https://chat.whatsapp.com/DdMbKYRxn5TCFrB9m10XnQ
 │ ✎ _Instagram_ :
-│    bit.ly/InstagramYuta
-│ ✎ _YouTube_ : 
-│    bit.ly/YoutubeYuta
+│    instagram.com/ahmdlui
+│ ✎ _github_ : 
+│    github.com/luigmntng
 │ ✎ _FaceBook_ :
 │    (Private)
 │ ✎ _WhatsApp_ :
@@ -28,12 +28,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
         hydratedTemplate: {
           hydratedContentText: str,
           locationMessage: { 
-          jpegThumbnail: fs.readFileSync('./media/face.jpg') },           
+          jpegThumbnail: fs.readFileSync('./media/shiraori.jpg') },           
           hydratedFooterText: wm,
           hydratedButtons: [{
             urlButton: {
-              displayText: 'Group Official',
-              url: 'https://chat.whatsapp.com/EZT51mPq69162pfM3afL1h'
+              displayText: 'Official instagran',
+              url: 'https://instagram.com/ahmdlui'
             }
 
           },
