@@ -59,7 +59,7 @@ const defaultMenu = {
 ╭─❑ 「 INFORMASI 」 ❑──
 ┃⬡ github : github.com/luigmntng
 ┃⬡ instagram : instagram.com/ahmdlui
-┃⬡ jika ada fitur yg eror mohon di maklumi
+┃⬡ jika eror alhamdulillah
 ┗⬣
 
 %readmore`.trimStart(),
@@ -183,8 +183,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: 'Group Official🐦',
-               url: 'https://chat.whatsapp.com/EZT51mPq69162pfM3afL1h'
+               displayText: 'Official instagram🐦',
+               url: 'https://instagram.com/ahmdlui'
              }
 
            },
